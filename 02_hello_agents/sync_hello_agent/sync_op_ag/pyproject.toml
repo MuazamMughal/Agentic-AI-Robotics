@@ -7,7 +7,9 @@ authors = [
     { name = "muazam mughal", email = "104276759+MuazamMughal@users.noreply.github.com" }
 ]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "openai-agents>=0.0.14",
+]
 
 [project.scripts]
 sync-op-ag = "sync_op_ag:main"
