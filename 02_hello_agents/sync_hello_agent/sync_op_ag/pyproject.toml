@@ -1,0 +1,17 @@
+[project]
+name = "sync-op-ag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "muazam mughal", email = "104276759+MuazamMughal@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+sync-op-ag = "sync_op_ag:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
