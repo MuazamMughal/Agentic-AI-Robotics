@@ -9,8 +9,10 @@ authors = [
 requires-python = ">=3.11"
 dependencies = [
     "chainlit>=2.3.0",
-    "openai-agent>=0.1.0",
+    "openai-agents",
 ]
+[tool.hatch.build.targets.wheel]
+packages = ["src/hello_op_ag"]
 
 [project.scripts]
 hello-op-ag = "hello_op_ag:main"
